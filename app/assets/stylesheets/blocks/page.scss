@@ -1,0 +1,15 @@
+.page {
+  padding: 40px 0;
+}
+
+.page__container {
+  display: flex;
+
+  @include tablets {
+    flex-direction: column;
+  }
+}
+
+.page__breadcrumbs {
+  margin-bottom: 25px;
+}

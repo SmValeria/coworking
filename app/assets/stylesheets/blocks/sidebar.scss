@@ -1,0 +1,16 @@
+.sidebar {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-right: 20px;
+
+  @include tablets {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.sidebar__menu {
+  align-self: flex-start;
+}

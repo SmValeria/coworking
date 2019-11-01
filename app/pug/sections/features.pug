@@ -1,0 +1,11 @@
+include ../data/features-list
+include ../mixins/icon-list
+
+section.features
+  .features__container.container.container--full
+    h2.section-title.features__header Особенности
+    +icon-list({
+      list: features,
+      blockClass: 'features__icon-list',
+      icon: true
+    })
