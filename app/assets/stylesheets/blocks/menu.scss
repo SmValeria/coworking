@@ -36,15 +36,15 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: $text-color-contrast;
-  transition: color 0.4s;
+  transition: color 0.3s;
 
   &:hover .menu__link::before,
   &--active .menu__link::before{
     filter: brightness(0);
   }
 
-  &:hover .menu__link,
-  &--active .menu__link {
+  &:hover,
+  &--active {
     color: $text-color-black;
   }
 }
